@@ -1,2 +1,3 @@
 # crowdsource
-simple app to provide information about crowdsourcing
+From crowdsourcing to innovation.
+How to use Crowdsourcing Platform in Computational Pathology.

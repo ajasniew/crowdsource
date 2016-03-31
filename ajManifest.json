@@ -1,0 +1,6 @@
+{
+    "name":"Crowdsource",
+    "description":"From crowdsourcing to innovation",
+    "icon":"http://gdriv.es/cfimgs/ImageGeneral/CrowdsourceIdea.jpg",
+    "onclick":"https://ajasniew.github.io/crowdsource/crowd.js"
+}
