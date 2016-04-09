@@ -6,7 +6,7 @@ console.log('crowd.js loaded');
         h += '<a href="#" data-toggle="tooltip" data-placement="right" title="What is crowdsourcing? ';
         h += 'The outsourcing of tasks typically performed by a few experts to a large crowd."> ';
         h += '<img src="http://gdriv.es/cfimgs/ImageGeneral/CrowdSourcing.jpg"';
-        h += 'class="img-circle" alt="Crowdsourcing"></a><br /><br />';
+        h += 'class="img-thumbnail" alt="Crowdsourcing" width="304" height="236"></a><br /><br />';
         h += '<div class="panel-group" id="accordion"> ';
         h += '<div class="panel panel-default"> ';
         h += '<div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse0">What is crowdsourcing?</a></h4</div> ';
