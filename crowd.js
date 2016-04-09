@@ -10,7 +10,7 @@ console.log('crowd.js loaded');
         h += '<div class="panel-group" id="accordion"> ';
         h += '<div class="panel panel-default"> ';
         h += '<div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse0">What is crowdsourcing?</a></h4</div> ';
-        h += '<div id="collapse0" class="panel-collapse collapse in"><div class="panel-body">The outsourcing of tasks typically performed by a few experts to a large crowd</div></div></div> ';
+        h += '<div id="collapse0" class="panel-collapse collapse"><div class="panel-body">The outsourcing of tasks typically performed by a few experts to a large crowd</div></div></div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> What is CrowdFlower?</a></h4></div>' ;
         h += '<div id="collapse1" class="panel-collapse collapse"><div class="panel-body">CrowdFlower is crowdsourcing platform</div></div></div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Image Analysis - Classification of Regions</a></h4></div> ';
