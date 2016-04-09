@@ -6,12 +6,21 @@ console.log('crowd.js loaded');
         h += '<a href="#" data-toggle="tooltip" data-placement="right" title="What is crowdsourcing? ';
         h += 'The outsourcing of tasks typically performed by a few experts to a large crowd."> ';
         h += '<img src="http://gdriv.es/cfimgs/ImageGeneral/CrowdSourcing.jpg"';
-        h += 'class="img-rounded" alt="Crowdsourcing"></a><br /><br />';
-        h += '<button id="crowdButton1" type="button" class="btn btn-primary btn-block disabled">Image Analysis - Classification of Regions</button> ';
-        h += '<button id="crowdButton2" type="button" class="btn btn-primary btn-block disabled">Image Analysis - Cell Nuclei Classification</button> ';
-        h += '<button id="crowdButton3" type="button" class="btn btn-primary btn-block disabled">Image Annotation - Nuclei Detection</button> ';
-        h += '<button id="crowdButton4" type="button" class="btn btn-primary btn-block disabled">Image Annotation - Nuclei Segmentation</button> ';
-        h += '</div>';
+        h += 'class="img-circle" alt="Crowdsourcing"></a><br /><br />';
+        h += '<div class="panel-group" id="accordion"> ';
+        h += '<div class="panel panel-default"> ';
+        h += '<div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse0">What is crowdsourcing?</a></h4</div> ';
+        h += '<div id="collapse0" class="panel-collapse collapse in"><div class="panel-body">The outsourcing of tasks typically performed by a few experts to a large crowd</div></div></div> ';
+        h += '<div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> What is CrowdFlower?</a></h4></div>' ;
+        h += '<div id="collapse1" class="panel-collapse collapse"><div class="panel-body">CrowdFlower is crowdsourcing platform</div></div></div> ';
+        h += '<div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Image Analysis - Classification of Regions</a></h4></div> ';
+        h += '<div id="collapse2" class="panel-collapse collapse"><div class="panel-body"></div></div></div> ';
+        h += '<div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Image Analysis - Cell Nuclei Classification</a></h4></div> ';
+        h += '<div id="collapse3" class="panel-collapse collapse"><div class="panel-body"></div></div></div> ';
+        h += '<div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4"> Image Analysis - Cell Nuclei Classification</a></h4></div> ';
+        h += '<div id="collapse4" class="panel-collapse collapse"><div class="panel-body"></div></div></div> ';
+        h += '<div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Image Annotation - Nuclei Detection</a></h4></div> ';
+        h += '<div id="collapse5" class="panel-collapse collapse"><div class="panel-body"></div></div></div></div> ';
    
     if (typeof (sbmApps) === 'function') { // if sbmApps library was loaded
         sbmApps.render(h);
@@ -22,7 +31,7 @@ console.log('crowd.js loaded');
     } 
     
     
-    $(document).ready(function(){
+    $(document).ready( function(){
     $('[data-toggle="tooltip"]').tooltip();   
      });
     

@@ -13,13 +13,85 @@
         <img id="crowdImg" width=100 src="http://gdriv.es/cfimgs/ImageGeneral/CrowdsourceIdea.jpg" />
         </a>
         <div class="container" align="center">
-            <h3>How to use Crowdsourcing Platform in Computational Pathology</h3>
+            <h3>How to use Crowdsourcing Platform in Computational Pathology?</h3>
             <a href="#" data-toggle="tooltip" data-placement="right" title="What is crowdsourcing?  The outsourcing of tasks typically performed by a few experts to a large crowd.">
-                <img src="http://gdriv.es/cfimgs/ImageGeneral/CrowdSourcing.jpg" class="img-rounded" alt="Crowdsourcing"></a><br /><br />
-            <button id="crowdButton1" type="button" class="btn btn-primary btn-block disabled">Image Analysis - Classification of Regions</button><br /><br />
-            <button id="crowdButton2" type="button" class="btn btn-primary btn-block disabled">Image Analysis - Cell Nuclei Classification</button><br /><br />
-            <button id="crowdButton3" type="button" class="btn btn-primary btn-block disabled">Image Annotation - Nuclei Detection</button><br /><br /><button id="crowdButton4" type="button" class="btn btn-primary btn-block disabled">Image Annotation - Nuclei Segmentation</button>
-        </div>
+                <img src="http://gdriv.es/cfimgs/ImageGeneral/CrowdSourcing.jpg" class="img-circle" alt="Crowdsourcing"></a><br /><br />
+            <!-- test accordian -->
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse0">
+                                What is crowdsourcing?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse0" class="panel-collapse collapse in">
+                        <div class="panel-body">The outsourcing of tasks typically performed by a few experts to a large crowd
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                What is CrowdFlower?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body">CrowdFlower is crowdsourcing platform
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                Image Analysis - Classification of Regions</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                Image Analysis - Cell Nuclei Classification</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                Image Analysis - Cell Nuclei Classification</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                Image Annotation - Nuclei Detection</a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end test accordian -->
         <script>
             $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();   
