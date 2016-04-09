@@ -2,7 +2,7 @@ console.log('crowd.js loaded');
 
 (function () { // wrapping everything within an annonymous function
     var h  = '<div class="container" align="center">';
-        h += '<h3>How to use Crowdsourcing Platform in Computational Patholog?</h3> ';
+        h += '<h3>How to use Crowdsourcing Platform in Computational Pathology?</h3> ';
         h += '<a href="#" data-toggle="tooltip" data-placement="right" title="What is crowdsourcing? ';
         h += 'The outsourcing of tasks typically performed by a few experts to a large crowd."> ';
         h += '<img src="http://gdriv.es/cfimgs/ImageGeneral/CrowdSourcing.jpg"';
