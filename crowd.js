@@ -20,13 +20,15 @@ console.log('crowd.js loaded');
         //end
         h += '</div></div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Image Analysis - Classification of Regions</a></h5></div> ';
-        h += '<div id="collapse2" class="panel-collapse collapse"><div class="panel-body"></div></div></div> ';
+        h += '<div id="collapse2" class="panel-collapse collapse"><div class="panel-body"> ';
+        h += 'In this task CrowdFlower contributors will identify the primary characteristic of various images of histological regions.</div></div></div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Image Analysis - Cell Nuclei Classification</a></h5></div> ';
-        h += '<div id="collapse3" class="panel-collapse collapse"><div class="panel-body"></div></div></div> ';
+        h += '<div id="collapse3" class="panel-collapse collapse"><div class="panel-body"> ';
+        h += 'In this task CrowdFlower contributors will identify all of the morphological characteristics of the cell nuclei in an image.</div></div></div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Image Annotation - Nuclei Segmentation</a></h5></div> ';
-        h += '<div id="collapse4" class="panel-collapse collapse"><div class="panel-body"></div></div></div> ';
+        h += '<div id="collapse4" class="panel-collapse collapse"><div class="panel-body">In this task CrowdFlower contributors will draw boundary of nuclei where they are found in the image.</div></div></div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Image Annotation - Nuclei Detection</a></h5></div> ';
-        h += '<div id="collapse5" class="panel-collapse collapse"><div class="panel-body"></div></div></div></div> ';
+        h += '<div id="collapse5" class="panel-collapse collapse"><div class="panel-body">In this task CrowdFlower contributors will place a dot at the center of nuclei where they are found in the image.</div></div></div></div> ';
    
     if (typeof (sbmApps) === 'function') { // if sbmApps library was loaded
         sbmApps.render(h);
