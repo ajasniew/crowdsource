@@ -16,7 +16,7 @@ console.log('crowd.js loaded');
         h += '<div class="col-md-4"><a target = "_blank" title="Click a thumbnail to display the image" href="https://ajasniew.github.io/crowdsource/images/crowdSourcing3.jpg" class="thumbnail"> ';
         h += '<img src="https://ajasniew.github.io/crowdsource/images/crowdSourcing3.jpg" alt="Crowdsource" style="width:200px;height:150px"></a></div> ';
         h += '<div class="col-md-4"><a target = "_blank" title="Click a thumbnail to display the image" href="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" class="thumbnail"> ';
-        h += '<img src="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" alt="Cinque Terre" style="width:200px;height:150px"></a></div></div></div>';  
+        h += '<img src="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" alt="Cinque Terre" style="width:200px;height:150px"></a></div></div>';  
         //end
         h += '</div></div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Image Analysis - Classification of Regions</a></h5></div> ';
