@@ -12,11 +12,11 @@ console.log('crowd.js loaded');
         h += '<div id="collapse1" class="panel-collapse collapse in"><div class="panel-body">Crowdsourcing is the outsourcing of tasks typically performed by a few experts to a large crowd.  CrowdFlower is the crowdsourcing ';
         h += 'platform</div>';
         //start
-        h += '<div class="row"><div class="col-md-4"><a href="https://ajasniew.github.io/crowdsource/images/crowdSourcing2.jpg" class="thumbnail"> ';
+        h += '<div class="row"><div class="col-md-4"><a target = "_blank" title="Click a thumbnail to display the image" href="https://ajasniew.github.io/crowdsource/images/crowdSourcing2.jpg" class="thumbnail"> ';
         h += '<img src="https://ajasniew.github.io/crowdsource/images/crowdSourcing2.jpg" alt="Crowdsource" style="width:200px;height:150px"></a></div> ';
-        h += '<div class="col-md-4"><a href="https://ajasniew.github.io/crowdsource/images/crowdSourcing3.jpg" class="thumbnail"> ';
+        h += '<div class="col-md-4"><a target = "_blank" title="Click a thumbnail to display the image" href="https://ajasniew.github.io/crowdsource/images/crowdSourcing3.jpg" class="thumbnail"> ';
         h += '<img src="https://ajasniew.github.io/crowdsource/images/crowdSourcing3.jpg" alt="Crowdsource" style="width:200px;height:150px"></a></div> ';
-        h += '<div class="col-md-4"><a href="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" class="thumbnail"> ';
+        h += '<div class="col-md-4"><a target = "_blank" title="Click a thumbnail to display the image" href="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" class="thumbnail"> ';
         h += '<img src="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" alt="Cinque Terre" style="width:200px;height:150px"></a></div></div>';  
         //end
         h += '</div></div> ';//default and collapse
