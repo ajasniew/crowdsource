@@ -18,7 +18,7 @@ console.log('crowd.js loaded');
         h += '<div class="col-md-4"><a target = "_blank" title="Click a thumbnail to display the image" href="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" class="thumbnail"> ';
         h += '<img src="https://ajasniew.github.io/crowdsource/images/crowdsource4.jpg" alt="Cinque Terre" style="width:200px;height:150px"></a></div></div>';  
         //end
-        h += '</div></div> ';
+        h += '</div> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Image Analysis - Classification of Regions</a></h5></div> ';
         h += '<div id="collapse2" class="panel-collapse collapse"><div class="panel-body" style="text-align:left;"> ';
         h += 'In this task CrowdFlower contributors will identify the primary characteristic of various images of histological regions.<br /> ';
