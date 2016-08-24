@@ -5,7 +5,7 @@ console.log('crowd.js loaded');
         h += '<h4>How to use Crowdsourcing Platform in Computational Pathology?</h4> ';
         h += '<a href="#" data-toggle="tooltip" data-placement="right" title="What is crowdsourcing? ';
         h += 'The outsourcing of tasks typically performed by a few experts to a large crowd."> ';
-        h += '<img src="http://gdriv.es/cfimgs/ImageGeneral/CrowdSourcing.jpg"';
+        h += '<img src="https://ajasniew.github.io/crowdsource/images/CrowdSourcing.jpg"';
         h += 'class="img-thumbnail" alt="Crowdsourcing" width="450" height="250"></a><br /><br />';
         h += '<div class="panel-group" id="accordion"> ';
         h += '<div class="panel panel-default"><div class="panel-heading"><h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is crowdsourcing?  What is CrowdFlower?</a></h5></div>' ;
